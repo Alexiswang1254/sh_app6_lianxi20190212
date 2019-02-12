@@ -1,0 +1,43 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1549933820678" stop="1549933820755">
+  <name>test_001</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1549933820678" status="failed" stop="1549933820755">
+      <name>Test_001.test_001_1</name>
+      <failure>
+        <message>AssertionError: assert False</message>
+        <stack-trace>self = &lt;test_001.Test_001 object at 0x105aa1c18&gt;
+
+    @allure.step(title="步骤名称")
+    def test_001_1(self):
+        allure.attach("名字","文件内容")
+    
+        with open("./screen/abc.png", "rb") as f:
+            allure.attach("图片名字", f.read(), allure.attach_type.PNG)
+&gt;       assert False
+E       assert False
+
+Scripts/test_001.py:12: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="2798-MainThread"/>
+        <label name="host" value="deMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1549933820686" status="failed" stop="1549933820687">
+          <name>步骤名称</name>
+          <title>步骤名称</title>
+          <attachments>
+            <attachment source="1710bc6b-5532-41c5-a433-fd7b7e43547f-attachment.txt" title="名字" type="text/plain"/>
+            <attachment source="9600f4db-f5c3-4604-bf8b-62406df7dc5e-attachment.png" title="图片名字" type="image/png"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

@@ -1,0 +1,106 @@
+{
+  "uid" : "f7e1b63679d7c29c",
+  "name" : "Test_001.test_001_1",
+  "fullName" : "test_001.Test_001.test_001_1",
+  "historyId" : "16633184f126cb7981120285250c88e0",
+  "time" : {
+    "start" : 1549933820678,
+    "stop" : 1549933820755,
+    "duration" : 77
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "self = <test_001.Test_001 object at 0x105aa1c18>\n\n    @allure.step(title=\"步骤名称\")\n    def test_001_1(self):\n        allure.attach(\"名字\",\"文件内容\")\n    \n        with open(\"./screen/abc.png\", \"rb\") as f:\n            allure.attach(\"图片名字\", f.read(), allure.attach_type.PNG)\n>       assert False\nE       assert False\n\nScripts/test_001.py:12: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False",
+    "statusTrace" : "self = <test_001.Test_001 object at 0x105aa1c18>\n\n    @allure.step(title=\"步骤名称\")\n    def test_001_1(self):\n        allure.attach(\"名字\",\"文件内容\")\n    \n        with open(\"./screen/abc.png\", \"rb\") as f:\n            allure.attach(\"图片名字\", f.read(), allure.attach_type.PNG)\n>       assert False\nE       assert False\n\nScripts/test_001.py:12: AssertionError",
+    "steps" : [ {
+      "name" : "步骤名称",
+      "time" : {
+        "start" : 1549933820686,
+        "stop" : 1549933820687,
+        "duration" : 1
+      },
+      "status" : "failed",
+      "statusMessage" : "self = <test_001.Test_001 object at 0x105aa1c18>\n\n    @allure.step(title=\"步骤名称\")\n    def test_001_1(self):\n        allure.attach(\"名字\",\"文件内容\")\n    \n        with open(\"./screen/abc.png\", \"rb\") as f:\n            allure.attach(\"图片名字\", f.read(), allure.attach_type.PNG)\n>       assert False\nE       assert False\n\nScripts/test_001.py:12: AssertionError",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f3f3468a716938f2",
+        "name" : "名字",
+        "source" : "f3f3468a716938f2.txt",
+        "type" : "text/plain",
+        "size" : 12
+      }, {
+        "uid" : "3b8622285b8b9cc",
+        "name" : "图片名字",
+        "source" : "3b8622285b8b9cc.png",
+        "type" : "image/png",
+        "size" : 163143
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "deMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "2798-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_001"
+  }, {
+    "name" : "testClass",
+    "value" : "test_001"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_001.test_001_1"
+  }, {
+    "name" : "package",
+    "value" : "test_001"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f7e1b63679d7c29c.json",
+  "parameterValues" : [ ]
+}
